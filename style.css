@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #F5F7FE;
+}
+/* primary section */
+
+/* primary button */
+.primary_button{
+    width: 130px;
+    height: 45px;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition:  0.3s;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+    border:none;
+    text-align: center;
+}
+
+.primary_button:hover{
+    color: #4E47FF;
+    background-color:white;
+    width: 131px;
+    transition: 2sec;
+    border:1px solid #4E47FF
+}
+ 
+/* banner section */
+.top_section{
+   width: 100%;
+   height: 600px;
+   background-image: url('./Assets/Hero-bg.png');
+   margin-bottom: 100px;
+}
+
+/* navber section */
+.nav_sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px; 
+    max-width: 1200px;  
+    margin: 0 auto;
+}
+
+ .nav_sec h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: #4E47FF;
+    font-size: 40px;
+    cursor: pointer;
+ }
+
+ /* hero section */
+ .hero_sec {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+ }
+
+ .hero_sec h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 110px;
+    margin-bottom: 60px;
+    font-family: 'Raleway', sans-serif;
+    line-break: initial;
+    
+ }
+ .hero_sec button{
+    width: 150px;
+ }
+  .hero_sec button:hover{
+    width: 150px;
+  }
+
+  /* action section */
+  .action_sec{
+   max-width: 1200px;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+
+  }
+ .action_info{
+   width: 25%;
+   margin-left: 80px;
+   margin-top: 40px;
+ }
+ 
+.action_info *{
+   margin-bottom: 20px;
+}
+  .action_info h2{
+   font-weight: bolder;
+   font-family:'Raleway', sans-serif;
+   font-size: 34px;
+
+  }
+  .action_sec p{
+   font-family:'Raleway', sans-serif;
+   font-size: 16px;
+   color: rgba(25, 25,32,50%);
+  }
+  .action_info button{
+   width: 180px;
+   font-size: 14px;
+  }
+   .action_info button:hover{
+    width: 180px;
+  }
+.action_img{
+   margin-right: 80px;
+}
+
+  .action_img img{
+   width: 300px;
+   border-radius: 20px;
+   
+  }
