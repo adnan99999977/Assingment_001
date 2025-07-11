@@ -272,3 +272,51 @@ body{
 .login_form button:hover{
     width: 307px;
 }
+/* footer */
+
+footer{
+   background-color: white;
+   width: 100%;
+   height: 300px;
+   margin-top: 100px;
+   padding-top: 80px;
+   margin-bottom: 10px;
+}
+
+footer h1{
+    font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #4E47FF;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 7px;
+
+}
+footer p{
+    font-family:'Raleway', sans-serif;
+   font-size: 13px;
+   color: rgba(19, 19, 22, 0.5);
+   text-align: center;
+}
+
+
+.foot_list ul{
+   display: flex;
+   width: 400px;
+   margin: 0 auto;
+   justify-content: space-evenly;
+
+}
+
+.foot_list ul li{
+  list-style: none;
+  text-decoration: none;
+   font-family:'Raleway', sans-serif;
+   color: rgba(7, 7, 7, 0.7);
+   margin: 0 auto;
+   font-size: 10px;
+   margin-top: 20px;
+   cursor: pointer;
+}
