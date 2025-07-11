@@ -312,6 +312,7 @@ body{
    border: none;
    margin-top: 4px;
    border: 1px solid rgb(110, 106, 106 ,0.4);
+   padding-right: 160px;
 }
 .login_form .msg{
    border: 1px solid rgb(110, 106, 106 ,0.4);
@@ -319,10 +320,10 @@ body{
 }
 
 .login_form button{
-   width: 307px;
+   width: 350px;
 }
 .login_form button:hover{
-    width: 307px;
+    width: 350px;
 }
 textarea {
    padding: 20px;
