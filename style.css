@@ -169,12 +169,14 @@ body{
    padding-left: 6px;
    
   }
+
+  /* feedback section */
+
   .feedback_sec{
   max-width: 1045px;
   height: 290px;
-  background-color: rgb(117, 139, 158);
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 60px;
   margin-bottom: 90px;
 
   }
@@ -184,6 +186,56 @@ body{
    padding-top: 20px;
    text-align: center;
   }
+
+  .feedback_list{
+   display: flex;
+   justify-content: space-evenly;
+   
+  }
+   
+ 
+.card{
+   width: 300px;
+   height: 220px;
+   background-color: #ffffff;
+   padding-left: 10px;
+   border-radius: 10px ;
+}
+.card img{
+   width: 80px;
+}
+.card h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card p{
+    font-family:'Raleway', sans-serif;
+   font-size: 12px;
+}
+.user{
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+.user img{
+   border-radius: 50%;
+   width: 70px;
+   padding-top: 20px;
+}
+.user_feed{
+   padding-left: 10px;
+}
+.user h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.user p{
+    font-family:'Raleway', sans-serif;
+   font-size: 10px;
+}
 
   /* focus section */
   .focus_sec{
@@ -320,3 +372,4 @@ footer p{
    margin-top: 20px;
    cursor: pointer;
 }
+
