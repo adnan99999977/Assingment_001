@@ -324,6 +324,10 @@ body{
 .login_form button:hover{
     width: 307px;
 }
+textarea {
+   padding: 20px;
+}
+
 /* footer */
 
 footer{
